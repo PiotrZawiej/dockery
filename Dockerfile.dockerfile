@@ -1,5 +1,5 @@
 FROM python:3.9
-WORKDIR C:\Users\Krzysiek\Desktop\python_docker
+WORKDIR C:\Users\Dell\Desktop\christmes_dockery\
 COPY .\requirements.txt \python_docker\requirements.txt
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
